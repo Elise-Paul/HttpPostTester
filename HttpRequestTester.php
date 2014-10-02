@@ -113,19 +113,19 @@
 
 			<FORM method="post" action="">
 				<input id="run_test" type="submit" name="submit" id="submit" value="Test" />
-				<div class="sub_wrap">
+				<div class="sub_wrap" style="display:none">
 					<label>Post Headers</label>
 					<textarea rows="2" cols="160" name="post_headers"><?php if ($_POST['post_headers']){echo htmlentities($_POST['post_headers']);}?></textarea>
 				</div>
 				<br>
 				<div class="sub_wrap">
-					<label>Post url    </label>
+					<label>Post url&nbsp;&nbsp;&nbsp;&nbsp;</label>
 					<textarea rows="1" cols="160" name="post_url"><?php if ($_POST['post_url']){echo htmlentities($_POST['post_url']);}?></textarea>
 				</div>
 				<br>
 				<div class="sub_wrap">
-					<label>Post Body  </label>
-					<textarea rows="7" cols="160" name="post_body"><?php if ($_POST['post_body']){echo htmlentities($_POST['post_body']);}?></textarea>
+					<label>Post Body</label>
+					<textarea rows="16" cols="160" name="post_body"><?php if ($_POST['post_body']){echo htmlentities($_POST['post_body']);}?></textarea>
 				</div>
 				<br>
 		
